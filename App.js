@@ -3,15 +3,15 @@ import StartGameScreen from './screens/StartGameScreen';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <View style={styles.rootScreen}>
       <StartGameScreen />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  rootScreen: {
     flex: 1,
-    backgroundColor: 'green',
+    backgroundColor: '#ddb52f',
   },
 });
