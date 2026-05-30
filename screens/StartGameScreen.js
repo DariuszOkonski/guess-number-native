@@ -54,6 +54,7 @@ const styles = StyleSheet.create({
   },
   buttonsContainer: {
     flexDirection: 'row',
+    width: '100%', // probably to remove
   },
   buttonContainer: {
     flex: 1,
